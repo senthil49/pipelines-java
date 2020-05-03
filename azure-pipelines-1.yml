@@ -8,8 +8,8 @@ trigger:
 
 pool:
   name: 'Default'
-  vmImage: 'ubuntu-latest'
-
+  demands: -maven
+  
 steps:
 - task: Maven@3
   inputs:
