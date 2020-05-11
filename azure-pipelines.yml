@@ -26,7 +26,7 @@ steps:
     serverEndpoint: 'ftp'
     rootDirectory: './'
     filePatterns: '**'
-    remoteDirectory: '/upload/$(Build.BuildId)/'
+    remoteDirectory: '//upload/$(Build.BuildId)/'
     clean: false
     cleanContents: false
     preservePaths: false
